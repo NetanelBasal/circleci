@@ -7,3 +7,5 @@ workflows:
       - cypress/run:
           start: npm start
           wait-on: 'http://localhost:4200'
+          parallel: true
+          parallelism: 4
