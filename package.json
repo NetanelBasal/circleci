@@ -1,6 +1,6 @@
 {
   "name": "circleci",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "c": "ng g @briebug/cypress-schematic:add",
     "cypress-open": "cypress open",
